@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.logo{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    height: 120px;
+    width: 70px;
+    position: absolute;
+    left: 95px;
+}
+.nomes{
+    display: flex;
+  }
+  
+  .nomes p{
+    margin-left: 10px;
+    margin-right: 70px;
+    font-family: 'Poppins', sans-serif;
+  }  
+  .img{
+        display: block;
+        height: 50px;
+        margin-right: 0%;
+        margin-top: auto;
+        position: absolute;
+        right: 10px;
+
+      }  
+.texto{
+        margin-left: 30px;
+        display: grid;
+        position: absolute;
+        width: 40%;
+        color: #fff;
+        bottom: 200px;
+        font-size: 20px;
+        font-size: 20px;
+}
+footer{
+    margin-left: 30px;
+    display: flex;
+    position: absolute;
+    color: #fff;
+    bottom: 70px;
+    font-size: 20px;
+    font-size: 20px;
+    width: auto;
+    margin-right: 16px;
+}
+.video {
+    width: 560px;
+    height: 315px;
+    background-image: url('https://www.youtube.com/watch?v=pyf8cbqyfPs');
+    background-size: cover;
+  }
+  
+  
