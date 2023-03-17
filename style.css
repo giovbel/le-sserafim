@@ -7,18 +7,25 @@ body{
   background-color: black;
 }
 header{
-  border: 1px solid white;
+  transition: font-size 1.5s ease;
   height: 50px;
 }
 .nomes{
-  font-size: 26px;
+  border: 1px solid white;
+  padding: 4px;
+  text-decoration: white;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Arvo', serif;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
   display: flex;
 }
 
 .nomes p{
   text-decoration: underline;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left: 30px;
   margin-right: 190px;
   font-family: 'Poppins', sans-serif;
@@ -33,14 +40,17 @@ main{
   height: 190px;
 }
 .texto{
+  font-family: 'Anton', sans-serif;
+  font-family: 'Arvo', serif;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Poppins', sans-serif;
   margin-top: 90px;
   margin-left: 100px;
   display: grid;
   position: absolute;
   width: 35%;
   color: #fff;
-  font-size: 20px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .lesafim{
   margin-top: 170px;
@@ -84,10 +94,13 @@ main{
     background-size: cover;
   }
   .loguinhos{
-    margin-right: 20px;
+    margin: 20px;
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 10px;
       height: auto;
       float: right;
+      }
+      footer{
+        bottom: 0px;
       }
